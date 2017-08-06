@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <title> Train Schedule </title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+    </head>
+
+    <body>
+
+        <div class="container"> 
+
+            <div class="row card-panel orange">
+
+               
+                <i class="center-align large material-icons left col s2">directions_railway</i>
+                
+                <h3 class="col s7 center-align">Train Scheduler</h3>
+
+            
+                <a id="submitButton" class="btn waves-effect waves-light red lighten-1 modal-trigger col s2 right-align" type="submit" name="action" href="#form">Add Train<i class="material-icons right">playlist_add</i></a>
+            </div>
+        
+            <div class="row card-panel orange">    
+
+                 <div class='chip row red lighten-1 white-text'>
+                        <div class='head name col s3'>Train Name</div>
+                        <div class='head dest col s3'>Destination</div>
+                        <div class='head freq col s2'>Frequency (min.)</div>
+                        <div class='head next col s2'>Next Arrival</div>
+                        <div class='head away col s2'>Minutes Away</div>
+                    </div>
+
+                    <div class='chip row'><div class='new name col s3'>Choo Choo</div><div class='new dest col s3'>NewYork, NewYork</div><div class='new freq col s2'>3000</div><div class='new next col s2'>00:00 PM</div><div class='new away col s2'>1000</div></div>
+                        
+                    <div id="form" class="modal">
+                        <div class="modal-content">
+                                <h4>Enter Train Information</h4>
+                                <div class="row">
+                                    <form class="col s12">
+                                    <div class="row">
+                                    <div class="input-field col s12">
+                                        <input placeholder="Train Name/ID/Number" id="trainName" type="text" class="validate">
+                                        <label for="trainName">Train Name</label>
+                                    </div>
+                                    </div>
+                                    <div class="row">
+                                    <div class="input-field col s12">
+                                        <input placeholder="Destination" id="destiNation" type="text" class="validate">
+                                        <label for="destiNation">Destination</label>
+                                    </div>
+                                    </div>
+                                    <div class="row">
+                                    <div class="input-field col s6">
+                                        <input placeholder="12 Hour or 24 Hour Format" id="startTime" type="text" class="validate">
+                                        <label for="startTime">First Arrival Time</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <input placeholder="Frequency in Minutes" id="startTime" type="text" class="validate">
+                                        <label for="startTime">Frequency of Arrival</label>
+                                    </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <button id="confirmButton" class="btn wave-effect waves-light red lighten-1 col s2 pull-s10" type="submit">Add Train<i class="material-icons">add_to_photos</i></a>
+                                    </div>
+                                </div>
+                        </div>
+                        
+
+
+                    </div>
+            </div>   
+                              
+                     
+            
+
+
+        </div> 
+        
+        
+
+
+
+        
+
+
+<!-- Script - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - -  -->
+        <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+        
+        <script src="assets/javascript/train.js"></script>
+    </body>
+
+</html>
