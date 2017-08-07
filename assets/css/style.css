@@ -12,22 +12,14 @@ h3 {
 h6 {
     text-decoration: underline;
 }
-
 #addButton {
     margin-top: 2.75%;
     margin-left: 4%;
 }
-
 .chip {
     display: inline-block;
     position: relative;
     width: 100%;
-  
-}
-.new {
-    display:inline-block;
-    position:relative;
-    width: 100;
     text-align: center;
 }
 .head {
