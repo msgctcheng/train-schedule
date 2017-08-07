@@ -9,8 +9,11 @@ h3 {
   border-top: 3px dashed black;
   border-bottom: 3px dashed black;
 }
+h6 {
+    text-decoration: underline;
+}
 
-#submitButton {
+#addButton {
     margin-top: 2.75%;
     margin-left: 4%;
 }
