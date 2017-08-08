@@ -112,8 +112,10 @@ dataRef.ref().on("child_added", function(childSnapshot) {
     var timeTill = frequent - remTime;
     var nextTime = moment().add(timeTill, "minutes");
     $("#appendHere").append("<div class='chip row center-align'><div class='new name col s3'>" + displayName + "</div><div class='new dest col s3'>" + displayDest + "</div><div class='new freq col s2'>" + frequent + "</div><div class='new next col s2'>" + moment(nextTime).format("HH:mm") + "</div><div class='new away col s2'>" + timeTill + "</div></div>");
-  });      
- 
+});      
+setInterval(function(){
+  location.reload(true);
+}, 60000);
   
       
       

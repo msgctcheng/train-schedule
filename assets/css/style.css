@@ -23,6 +23,9 @@ h6 {
     text-align: center;
 }
 .head {
+    display:inline-block;
+    position: relative;
+    width:100%;
     text-align: center;
     text-decoration: underline;
     font-weight: bold;
