@@ -11,6 +11,8 @@ $(document).ready(function(){
   $('.modal').modal({
     dismissible: false
   });
+  $(".current").html(moment().format("HH:mm"));
+
 });
 var dataRef = firebase.database();
 var trainName = "";
@@ -115,6 +117,7 @@ dataRef.ref().on("child_added", function(childSnapshot) {
 });      
 setInterval(function(){
   location.reload(true);
+  $(".current").html(moment().format("HH:mm"));
 }, 60000);
   
       
