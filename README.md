@@ -11,4 +11,4 @@
 
 * Upon submission the train's information is stored in Firebase DB and dynamically displayed on the table of trains.
 
-* The app reloads every minute to keep the times up to date. 
+* The app reloads every minute and uses Moment.js to keep the times from Firebase up to date. 
