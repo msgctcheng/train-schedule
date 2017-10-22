@@ -1,5 +1,5 @@
 # Train-Schedule App
-
-[Link To Train Scheduler App](https://msgctcheng.github.io/train-schedule/)
-
-https://media.giphy.com/media/3ov9jTWYbrIKxWJC7u/giphy.gif
+                                                Moment.js | Firebase |Materalize CSS | HTML5 | JS/jQuery
+* App Link: https://msgctcheng.github.io/train-schedule/
+* App Preview GIF:
+![alt text](https://media.giphy.com/media/3ov9jTWYbrIKxWJC7u/giphy.gif)
