@@ -3,4 +3,5 @@
 * App Link: https://msgctcheng.github.io/train-schedule/
 * App Preview GIF:
 
-![alt text](https://media.giphy.com/media/3ov9jTWYbrIKxWJC7u/giphy.gif)
+    ![alt text](https://media.giphy.com/media/3ov9jTWYbrIKxWJC7u/giphy.gif)
+
